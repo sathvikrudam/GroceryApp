@@ -1,0 +1,109 @@
+<web-app>
+    <welcome-file-list>
+    <welcome-file>jsp/login.jsp</welcome-file>
+</welcome-file-list>
+
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+<servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>servlet.LoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>AddToCartServlet</servlet-name>
+    <servlet-class>servlet.AddToCartServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AddToCartServlet</servlet-name>
+    <url-pattern>/AddToCartServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>PlaceOrderServlet</servlet-name>
+    <servlet-class>servlet.PlaceOrderServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>PlaceOrderServlet</servlet-name>
+    <url-pattern>/PlaceOrderServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <servlet-class>servlet.AdminLoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <url-pattern>/AdminLoginServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>AddItemServlet</servlet-name>
+    <servlet-class>servlet.AddItemServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AddItemServlet</servlet-name>
+    <url-pattern>/AddItemServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>AdminLogoutServlet</servlet-name>
+    <servlet-class>servlet.AdminLogoutServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AdminLogoutServlet</servlet-name>
+    <url-pattern>/AdminLogoutServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>UpdateItemServlet</servlet-name>
+    <servlet-class>servlet.UpdateItemServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>UpdateItemServlet</servlet-name>
+    <url-pattern>/UpdateItemServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>DeleteItemServlet</servlet-name>
+    <servlet-class>servlet.DeleteItemServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>DeleteItemServlet</servlet-name>
+    <url-pattern>/DeleteItemServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>RegisterAdminServlet</servlet-name>
+    <servlet-class>servlet.RegisterAdminServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>RegisterAdminServlet</servlet-name>
+    <url-pattern>/RegisterAdminServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>servlet.LogoutServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/LogoutServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>ConfirmOrderServlet</servlet-name>
+    <servlet-class>servlet.ConfirmOrderServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>ConfirmOrderServlet</servlet-name>
+    <url-pattern>/ConfirmOrderServlet</url-pattern>
+</servlet-mapping>
+
+
+</web-app>
