@@ -32,6 +32,7 @@ Admins can log in to manage products, view orders, and update inventory.
 
 ## Project Structure
 
+```
 GroceryApp/
 ├── db/
 │ └── DBConnection.java
@@ -64,7 +65,7 @@ GroceryApp/
 ├── WEB-INF/
 │ └── web.xml
 └── .gitignore
-
+```
 ---
 
 ## Setup Instructions
