@@ -1,0 +1,22 @@
+# Ignore compiled Java classes
+WEB-INF/classes/
+*.class
+
+# Ignore build and deployment files
+*.war
+*.jar
+*.log
+*.tmp
+
+# IDE/project files
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+.classpath
+.project
+.settings/
+
+# macOS junk
+.DS_Store
